@@ -1,0 +1,21 @@
+Question 1 -- sortByStrings(s,t)
+
+let sortByStrings = function(s, t){
+
+let result = "";
+
+for(let i = 0; i < t.length; i++)
+{
+    for(let j = 0; j < s.length; j++){
+
+        if(t[i] === s[j]){
+            result+= s[j];
+        }
+    }
+}
+
+return result;
+}
+
+
+sortByStrings(s,t)
